@@ -4,41 +4,69 @@
 #+DESCRIPTION: 
 #+KEYWORDS: 
 #+LANGUAGE:  de
-#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   H:3 num:t toc:f \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
 #+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
-#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+INFOJS_OPT: view:nil toc:nil ltoc:f mouse:underline buttons:0 path:http://orgmode.org/org-info.js
 #+EXPORT_SELECT_TAGS: export
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+LINK_UP:   
 #+LINK_HOME: 
 #+LaTeX_CLASS: book
 #+LATEX_CLASS_OPTIONS: [a4paper,12pt]{scrartcl}
-#+LATEX_HEADER:  \usepackage{ngerman} \usepackage[utf8]{inputenc}
+#+LATEX_HEADER:  \usepackage{ngerman} \usepackage[utf8]{inputenc} \usepackage{fancyhdr}
+#+LATEX_HEADER:  \def\secondpage{\clearpage\null\vfill \pagestyle{empty} 
+#+LATEX_HEADER:  \begin{minipage}[b]{0.9\textwidth} \footnotesize\raggedright \setlength{\parskip}{0.5\baselineskip} 
+#+LATEX_HEADER:  Created 2013 by Henry Hirsch. Some rights reserved.
+#+LATEX_HEADER:  This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. 
+#+LATEX_HEADER:  This means you are free to copy, distribute, transmit and adapt the work. 
+#+LATEX_HEADER:  Under the following conditions http://creativecommons.org/licenses/by-nc-sa/3.0/ 
 
+#+LATEX_HEADER:  \end{minipage} \vspace*{2\baselineskip} \cleardoublepage \rfoot{\thepage}} \makeatletter \g@addto@macro{\maketitle}{\secondpage} \makeatother
 #+BEGIN_LATEX
-\frontmatter
-\chapter*{Lizens}
+\begin{frontmatter}
 #+END_LATEX
 
-This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
-This means you are free to copy, distribute, transmit and adapt the work.
-Under the following conditions http://creativecommons.org/licenses/by-nc-sa/3.0/
 
-#+BEGIN_LATEX
-\mainmatter
 
+#+BEGIN_LATEX 
+\pagestyle{empty}
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\tableofcontents
+\end{frontmatter}
+\begin{mainmatter}
 #+END_LATEX
 
 * Deutschland
-     #+CAPTION: Hauptstädte von Europa
-     #+NAME:   fig:EU-CAP
-     [[./images/eu-capitals.png]]
+Deutschland ist in Europa. Berlin ist in Deutschland. Frankfurt ist auch in Deutschland. Frankfurt und Berlin sind in Deutschland.
 
+Washington ist in Amerika. New York ist auch in Amerika. Frankfurt ist nicht in Amerika. Frankfurt ist in Deutschland.
+Washington und New York sind in Amerika. Berlin und Frankfurt sind in Deutschland.
+Washington ist nicht in Europa. Washington ist nicht in Deutschland.
 
+Wo ist Washington? Washington ist in Amerika.
+Wo ist Berlin? ...
+Wo ist Frankfurt? ...
+Wo ist Deutschland? ...
+Wo ist New York? ...
+#+CAPTION: Hauptstädte von Europa
+#+NAME:   fig:EU-CAP
+[[./images/eu-capitals.png]]
+
+#+BEGIN_LATEX
+\end{mainmatter}
+\begin{appendix}
+#+END_LATEX
 * Quellenverzeichniss
 ** commons.wikimedia.org
+
 | Bild            | Autor        | Lizenz                                                |
 |-----------------+--------------+-------------------------------------------------------|
 | baden.png       | Ssch, kjunix | Creative Commons Attribution-Share Alike 3.0 Unported |
 | eu-capitals.png | Highpriority | Creative Commons Attribution-Share Alike 3.0 Unported |
 |                 |              |                                                       |
+
+
+
+#+BEGIN_LATEX
+\end{appendix
+#+END_LATEX
