@@ -1,4 +1,4 @@
-#+TITLE:     Deutsche Sprache mit Illustrationen
+#+TITLE:     Illustrierte Deutsche Sprache 
 #+AUTHOR:    Henry Hirsch
 #+EMAIL:     henry@w3-net.de
 #+DESCRIPTION: 
@@ -16,7 +16,7 @@
 #+LATEX_HEADER:  \usepackage{ngerman} \usepackage[utf8]{inputenc} \usepackage{fancyhdr}
 #+LATEX_HEADER:  \def\secondpage{\clearpage\null\vfill \pagestyle{empty} 
 #+LATEX_HEADER:  \begin{minipage}[b]{0.9\textwidth} \footnotesize\raggedright \setlength{\parskip}{0.5\baselineskip} 
-#+LATEX_HEADER:  Created 2013 by Henry Hirsch. Some rights reserved.
+#+LATEX_HEADER:  Created 2013 by Henry Hirsch. Some rights reserved. \newline
 #+LATEX_HEADER:  This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. 
 #+LATEX_HEADER:  This means you are free to copy, distribute, transmit and adapt the work. 
 #+LATEX_HEADER:  Under the following conditions http://creativecommons.org/licenses/by-nc-sa/3.0/ 
@@ -43,14 +43,44 @@ Washington ist in Amerika. New York ist auch in Amerika. Frankfurt ist nicht in 
 Washington und New York sind in Amerika. Berlin und Frankfurt sind in Deutschland.
 Washington ist nicht in Europa. Washington ist nicht in Deutschland.
 
-Wo ist Washington? Washington ist in Amerika.
-Wo ist Berlin? ...
-Wo ist Frankfurt? ...
-Wo ist Deutschland? ...
-Wo ist New York? ...
+Washington, Frankfurt und Berlin sind Städte.
+Freiburg, Basel, Zürich, London und Karlsruhe sind auch Städte.
+
 #+CAPTION: Hauptstädte von Europa
 #+NAME:   fig:EU-CAP
 [[./images/eu-capitals.png]]
+
+- Wo ist Washington? Washington ist in Amerika.
+- Wo ist Berlin? ...
+- Wo ist Frankfurt? ...
+- Wo ist Deutschland? ...
+- Wo ist New York? ...
+
+New York ist eine Stadt. Washington ist auch eine Stadt. Der Amazonas ist ein Fluss.
+Der Rhein ist auch ein Fluss. Der Rhein ist in Deutschland. 
+Der Amazonas und der Rhein sind Flüsse.
+
+#+CAPTION: Rhein
+#+NAME:   fig:EU-RHW
+[[./images/rhein.png]]
+
+
+- New York ist eine ...
+- Der Rhein ist ein ...
+- Frankfurt ist eine ...
+
+Was ist New York? New York ist eine Stadt. Was ist Frankfurt? Frankfurt ist auch eine Stadt.
+
+- Was ist Berlin?
+
+
+#+CAPTION: Lauf der Donau
+#+NAME:   fig:EU-DNA
+[[./images/donau.png]]
+
+#+CAPTION: Brandenburger Tor
+#+NAME:   fig:BL-BTO
+[[./images/brand_tor.jpg]]
 
 #+BEGIN_LATEX
 \end{mainmatter}
@@ -59,11 +89,13 @@ Wo ist New York? ...
 * Quellenverzeichniss
 ** commons.wikimedia.org
 
-| Bild            | Autor        | Lizenz                                                |
-|-----------------+--------------+-------------------------------------------------------|
-| baden.png       | Ssch, kjunix | Creative Commons Attribution-Share Alike 3.0 Unported |
-| eu-capitals.png | Highpriority | Creative Commons Attribution-Share Alike 3.0 Unported |
-|                 |              |                                                       |
+| Bild            | Autor                      | Lizenz                                                |
+|-----------------+----------------------------+-------------------------------------------------------|
+| baden.png       | Ssch, kjunix               | Creative Commons Attribution-Share Alike 3.0 Unported |
+| eu-capitals.png | Highpriority               | Creative Commons Attribution-Share Alike 3.0 Unported |
+| rhein.png       | Daniel Ullrich (Threedots) | Creative Commons Attribution-Share Alike 3.0 Unported |
+| donau.png       | NordNordWest, TomGonzales  | Creative Commons Attribution-Share Alike 2.0 Generic  |
+| brand_tor.jpg   | Thomas Wolf                | Creative Commons Attribution-Share Alike 3.0 Unported |
 
 
 
