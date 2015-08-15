@@ -59,6 +59,7 @@ Freiburg, Basel, Zürich, London und Karlsruhe sind auch Städte.
 New York ist eine Stadt. Washington ist auch eine Stadt. Der Amazonas ist ein Fluss.
 Der Rhein ist auch ein Fluss. Der Rhein ist in Deutschland. 
 Der Amazonas und der Rhein sind Flüsse.
+Der Amazonas, der Rhein und der Nil sind Flüsse.
 
 #+CAPTION: Rhein
 #+NAME:   fig:EU-RHW
@@ -82,6 +83,12 @@ Was ist New York? New York ist eine Stadt. Was ist Frankfurt? Frankfurt ist auch
 #+NAME:   fig:BL-BTO
 [[./images/brand_tor.jpg]]
 
+* Die Familie
+Die Simpsons sind eine Familie. Homer ist der Vater. Marge ist die Mutter. Bart ist der Sohn. 
+Lisa ist die Tochter und Maggie ist das Baby.
+Die Flanders sind auch eine Familie. Die Flanders und die Simpsons sind Familien.
+Die Windsors sind auch eine Familie. Elizabeth ist eine Mutter. Charles ist ein Sohn.
+Die Simpsons, die Flanders und die Windsors sind Familien. 
 #+BEGIN_LATEX
 \end{mainmatter}
 \begin{appendix}
