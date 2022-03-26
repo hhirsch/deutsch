@@ -38,7 +38,7 @@
 
 * Deutschland
 Deutschland ist in Europa. Berlin ist in Deutschland. Frankfurt ist auch in Deutschland. Frankfurt und Berlin sind in Deutschland.
-
+Frankreich ist in Europa. Paris ist in Frankreich. Lyon ist auch in Frankreich. Paris und Lyon sind in Frankreich.
 Washington ist in Amerika. New York ist auch in Amerika. Frankfurt ist nicht in Amerika. Frankfurt ist in Deutschland.
 Washington und New York sind in Amerika. Berlin und Frankfurt sind in Deutschland.
 Washington ist nicht in Europa. Washington ist nicht in Deutschland.
