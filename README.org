@@ -43,7 +43,7 @@ Washington ist in Amerika. New York ist auch in Amerika. Frankfurt ist nicht in 
 Washington und New York sind in Amerika. Berlin und Frankfurt sind in Deutschland.
 Washington ist nicht in Europa. Washington ist nicht in Deutschland.
 
-Washington, Frankfurt und Berlin sind Städte.
+Washington, Paris, Frankfurt und Berlin sind Städte.
 Freiburg, Basel, Zürich, London und Karlsruhe sind auch Städte.
 
 #+CAPTION: Hauptstädte von Europa
@@ -53,10 +53,11 @@ Freiburg, Basel, Zürich, London und Karlsruhe sind auch Städte.
 - Wo ist Washington? Washington ist in Amerika.
 - Wo ist Berlin? ...
 - Wo ist Frankfurt? ...
+- Wo ist Paris? ...
 - Wo ist Deutschland? ...
 - Wo ist New York? ...
 
-New York ist eine Stadt. Washington ist auch eine Stadt. Der Amazonas ist ein Fluss.
+New York ist eine Stadt. Washington ist auch eine Stadt. Paris ist auch eine Stadt. Der Amazonas ist ein Fluss.
 Der Rhein ist auch ein Fluss. Der Rhein ist in Deutschland. 
 Der Amazonas und der Rhein sind Flüsse.
 Der Amazonas, der Rhein und der Nil sind Flüsse.
